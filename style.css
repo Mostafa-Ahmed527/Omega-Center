@@ -33,25 +33,7 @@ body {
 }
 `
 
-/* زر القائمة */
 
-.menu-btn {
-    position: absolute;
-    right: 20px;
-
-    width: 45px;
-    height: 45px;
-
-    border: none;
-    border-radius: 10px;
-
-    background: transparent;
-    color: white;
-
-    font-size: 30px;
-
-    cursor: pointer;
-}
 
 
 /* اللوجو */
@@ -73,68 +55,6 @@ body {
 }
 
 
-/* =========================
-   القائمة الجانبية
-========================= */
-
-.side-menu {
-    position: fixed;
-
-    top: 0;
-    right: -300px;
-
-    width: 280px;
-    height: 100vh;
-
-    background: #111;
-
-    padding-top: 80px;
-
-    z-index: 2000;
-
-    transition: 0.3s;
-
-    box-shadow: -5px 0 20px rgba(0,0,0,0.3);
-}
-
-.side-menu.open {
-    right: 0;
-}
-
-.side-menu a {
-    display: block;
-
-    color: white;
-
-    text-decoration: none;
-
-    padding: 18px 25px;
-
-    font-size: 19px;
-
-    border-bottom: 1px solid #333;
-}
-
-.side-menu a:hover {
-    background: #222;
-}
-
-.close-btn {
-    position: absolute;
-
-    top: 15px;
-    left: 20px;
-
-    border: none;
-    background: none;
-
-    color: white;
-
-    font-size: 35px;
-
-    cursor: pointer;
-}
-
 
 /* =========================
    الإعلان
@@ -143,7 +63,7 @@ body {
 .ad-section {
     width: 100%;
 
-    padding: 20px 15px;
+    padding: 0; 
 
     display: flex;
     justify-content: center;
@@ -151,11 +71,13 @@ body {
 
 .center-ad {
     width: 100%;
-    max-width: 1000px;
+    max-width: 100px;
+    max-height: 250px
+        object-fit:contain
 
     display: block;
 
-    border-radius: 18px;
+    border-radius: 0;
 
     box-shadow: 0 5px 20px rgba(0,0,0,0.15);
 }
