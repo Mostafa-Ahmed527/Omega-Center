@@ -12,8 +12,8 @@ html {
 
 body {
     font-family: Arial, Tahoma, sans-serif;
-    background: #f7f7f7;
-    color: #222;
+    background: #000000;
+    color: #f5b400;
     overflow-x: hidden;
     width: 100%;
     max-width: 100%;
@@ -213,13 +213,13 @@ img {
 
     margin-top: 25px;
 
-    color: #111;
+    color: #f5b400;
 }
 
 .subtitle {
     margin-top: 10px;
 
-    color: #777;
+    color: #f5b400;
 
     font-size: 18px;
 }
@@ -240,7 +240,7 @@ img {
 }
 
 .small-title {
-    color: #b58300;
+    color: #f5b400;
 
     font-size: 14px;
 
@@ -394,7 +394,7 @@ img {
 }
 
 .teacher-info p {
-    color: #777;
+    color: #f5b400;
 
     font-size: 17px;
 }
@@ -507,7 +507,7 @@ footer {
 
     background: #080808;
 
-    color: #aaa;
+    color: #f5b400;
 }
 
 
